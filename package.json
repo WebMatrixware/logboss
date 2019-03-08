@@ -1,0 +1,37 @@
+{
+  "name": "logboss",
+  "version": "0.1.0",
+  "description": "Display and analyze large log files",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node ./node_modules/lab/bin/lab"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebMatrixware/logboss.git"
+  },
+  "author": "Ben Lanning <blanning@all-mode.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WebMatrixware/logboss/issues"
+  },
+  "homepage": "https://github.com/WebMatrixware/logboss#readme",
+  "dependencies": {
+    "blipp": "^3.1.2",
+    "boom": "^7.3.0",
+    "dotenv": "^6.2.0",
+    "good": "^8.1.2",
+    "good-console": "^8.0.0",
+    "good-file": "^6.0.1",
+    "good-squeeze": "^5.1.0",
+    "hapi": "^18.1.0",
+    "inert": "^5.1.2",
+    "lout": "^11.1.0",
+    "vision": "^5.4.4"
+  },
+  "devDependencies": {
+    "code": "^5.2.4",
+    "lab": "^18.0.2"
+  }
+}
