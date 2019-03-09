@@ -2,3 +2,12 @@ language: node_js
 
 node_js:
   - "node"
+
+env:
+  - CODECOV_TOKEN="30165a72-a5bd-46fc-94fe-ec430871a2ea"
+
+install:
+  - npm install -g codecov
+
+script:
+  - codecov
