@@ -536,18 +536,6 @@
         <li><a href="#tests">Test Report</a></li>
         <li><a href="#coverage">Coverage Report</a></li>
         <li><a href="#linting">Linting Report</a></li>
-        <li>
-            <span class="lint"><span class="low">38</span> || <span class="high">0</span></span>
-            <a href="#lint-index.js">index.js</a>
-        </li>
-        <li>
-            <span class="lint"><span class="low">17</span> || <span class="low">3</span></span>
-            <a href="#lint-routes.js">routes.js</a>
-        </li>
-        <li>
-            <span class="lint"><span class="low">6</span> || <span class="high">0</span></span>
-            <a href="#lint-test\unit.js">test\unit.js</a>
-        </li>
     </div>
     <div id="tests">
       <h1>Test Report</h1>
@@ -555,7 +543,7 @@
           <div class="failures">0</div>
           <div class="skipped">0</div>
           <div class="test-count">1</div>
-          <div class="duration">51</div>
+          <div class="duration">56</div>
       </div>
       <div id="filters">
           <input type="checkbox" checked="" onchange="filter(this)" value="success" id="show-success">
@@ -580,7 +568,7 @@
               <td class="test-title">test return true when 1 + 1 equals 2
                   
               </td>
-              <td class="test-duration">5</td>
+              <td class="test-duration">7</td>
           </tr>
           </tbody>
       </table>
@@ -602,86 +590,10 @@
     </div>    <div id="linting">
         <h1>Linting Report</h1>
             <div class="lint-stats">
-                <span class="lint-errors low">61</span>
-                <span class="lint-warnings low">3</span>
+                <span class="lint-errors high">0</span>
+                <span class="lint-warnings high">0</span>
             </div>
             <div class="lint-files">
-                <div class="lint-file">
-                    <h2 id="lint-index.js">index.js</h2>
-                    <ul>
-                        <li class="lint-entry">L8 - <span class="level-ERROR">ERROR</span> - indent - Expected indentation of 4 spaces but found 2.</li>
-                        <li class="lint-entry">L9 - <span class="level-ERROR">ERROR</span> - indent - Expected indentation of 4 spaces but found 2.</li>
-                        <li class="lint-entry">L13 - <span class="level-ERROR">ERROR</span> - indent - Expected indentation of 4 spaces but found 2.</li>
-                        <li class="lint-entry">L14 - <span class="level-ERROR">ERROR</span> - indent - Expected indentation of 8 spaces but found 4.</li>
-                        <li class="lint-entry">L15 - <span class="level-ERROR">ERROR</span> - indent - Expected indentation of 4 spaces but found 2.</li>
-                        <li class="lint-entry">L16 - <span class="level-ERROR">ERROR</span> - indent - Expected indentation of 4 spaces but found 2.</li>
-                        <li class="lint-entry">L17 - <span class="level-ERROR">ERROR</span> - indent - Expected indentation of 8 spaces but found 4.</li>
-                        <li class="lint-entry">L18 - <span class="level-ERROR">ERROR</span> - indent - Expected indentation of 12 spaces but found 6.</li>
-                        <li class="lint-entry">L19 - <span class="level-ERROR">ERROR</span> - indent - Expected indentation of 12 spaces but found 6.</li>
-                        <li class="lint-entry">L20 - <span class="level-ERROR">ERROR</span> - indent - Expected indentation of 12 spaces but found 6.</li>
-                        <li class="lint-entry">L20 - <span class="level-ERROR">ERROR</span> - object-curly-spacing - A space is required after &#x27;&#x7b;&#x27;.</li>
-                        <li class="lint-entry">L20 - <span class="level-ERROR">ERROR</span> - object-curly-spacing - A space is required before &#x27;&#x7d;&#x27;.</li>
-                        <li class="lint-entry">L21 - <span class="level-ERROR">ERROR</span> - indent - Expected indentation of 8 spaces but found 4.</li>
-                        <li class="lint-entry">L22 - <span class="level-ERROR">ERROR</span> - indent - Expected indentation of 12 spaces but found 6.</li>
-                        <li class="lint-entry">L23 - <span class="level-ERROR">ERROR</span> - indent - Expected indentation of 8 spaces but found 4.</li>
-                        <li class="lint-entry">L24 - <span class="level-ERROR">ERROR</span> - indent - Expected indentation of 4 spaces but found 2.</li>
-                        <li class="lint-entry">L29 - <span class="level-ERROR">ERROR</span> - indent - Expected indentation of 4 spaces but found 2.</li>
-                        <li class="lint-entry">L30 - <span class="level-ERROR">ERROR</span> - indent - Expected indentation of 8 spaces but found 4.</li>
-                        <li class="lint-entry">L31 - <span class="level-ERROR">ERROR</span> - indent - Expected indentation of 8 spaces but found 4.</li>
-                        <li class="lint-entry">L32 - <span class="level-ERROR">ERROR</span> - indent - Expected indentation of 4 spaces but found 2.</li>
-                        <li class="lint-entry">L33 - <span class="level-ERROR">ERROR</span> - indent - Expected indentation of 8 spaces but found 4.</li>
-                        <li class="lint-entry">L34 - <span class="level-ERROR">ERROR</span> - indent - Expected indentation of 8 spaces but found 4.</li>
-                        <li class="lint-entry">L35 - <span class="level-ERROR">ERROR</span> - indent - Expected indentation of 4 spaces but found 2.</li>
-                        <li class="lint-entry">L36 - <span class="level-ERROR">ERROR</span> - indent - Expected indentation of 8 spaces but found 4.</li>
-                        <li class="lint-entry">L37 - <span class="level-ERROR">ERROR</span> - indent - Expected indentation of 8 spaces but found 4.</li>
-                        <li class="lint-entry">L38 - <span class="level-ERROR">ERROR</span> - indent - Expected indentation of 4 spaces but found 2.</li>
-                        <li class="lint-entry">L39 - <span class="level-ERROR">ERROR</span> - indent - Expected indentation of 8 spaces but found 4.</li>
-                        <li class="lint-entry">L40 - <span class="level-ERROR">ERROR</span> - indent - Expected indentation of 8 spaces but found 4.</li>
-                        <li class="lint-entry">L41 - <span class="level-ERROR">ERROR</span> - indent - Expected indentation of 4 spaces but found 2.</li>
-                        <li class="lint-entry">L42 - <span class="level-ERROR">ERROR</span> - indent - Expected indentation of 8 spaces but found 4.</li>
-                        <li class="lint-entry">L43 - <span class="level-ERROR">ERROR</span> - indent - Expected indentation of 8 spaces but found 4.</li>
-                        <li class="lint-entry">L44 - <span class="level-ERROR">ERROR</span> - indent - Expected indentation of 4 spaces but found 2.</li>
-                        <li class="lint-entry">L45 - <span class="level-ERROR">ERROR</span> - indent - Expected indentation of 8 spaces but found 4.</li>
-                        <li class="lint-entry">L46 - <span class="level-ERROR">ERROR</span> - indent - Expected indentation of 8 spaces but found 4.</li>
-                        <li class="lint-entry">L47 - <span class="level-ERROR">ERROR</span> - indent - Expected indentation of 4 spaces but found 2.</li>
-                        <li class="lint-entry">L49 - <span class="level-ERROR">ERROR</span> - indent - Expected indentation of 4 spaces but found 2.</li>
-                        <li class="lint-entry">L54 - <span class="level-ERROR">ERROR</span> - indent - Expected indentation of 4 spaces but found 2.</li>
-                        <li class="lint-entry">L55 - <span class="level-ERROR">ERROR</span> - indent - Expected indentation of 4 spaces but found 2.</li>
-                    </ul>
-                </div>            <div class="lint-file">
-                    <h2 id="lint-routes.js">routes.js</h2>
-                    <ul>
-                        <li class="lint-entry">L3 - <span class="level-WARNING">WARNING</span> - hapi&#x2f;hapi-capitalize-modules - Imported module variable name not capitalized.</li>
-                        <li class="lint-entry">L3 - <span class="level-WARNING">WARNING</span> - no-unused-vars - &#x27;handlers&#x27; is assigned a value but never used. Allowed unused vars must match &#x2f;&#x5e;internals&#x24;&#x2f;.</li>
-                        <li class="lint-entry">L6 - <span class="level-ERROR">ERROR</span> - indent - Expected indentation of 4 spaces but found 2.</li>
-                        <li class="lint-entry">L6 - <span class="level-ERROR">ERROR</span> - require-await - Async method &#x27;register&#x27; has no &#x27;await&#x27; expression.</li>
-                        <li class="lint-entry">L6 - <span class="level-WARNING">WARNING</span> - hapi&#x2f;hapi-scope-start - Missing blank line at beginning of function.</li>
-                        <li class="lint-entry">L7 - <span class="level-ERROR">ERROR</span> - indent - Expected indentation of 8 spaces but found 4.</li>
-                        <li class="lint-entry">L8 - <span class="level-ERROR">ERROR</span> - indent - Expected indentation of 12 spaces but found 8.</li>
-                        <li class="lint-entry">L9 - <span class="level-ERROR">ERROR</span> - indent - Expected indentation of 12 spaces but found 8.</li>
-                        <li class="lint-entry">L10 - <span class="level-ERROR">ERROR</span> - indent - Expected indentation of 12 spaces but found 8.</li>
-                        <li class="lint-entry">L11 - <span class="level-ERROR">ERROR</span> - indent - Expected indentation of 16 spaces but found 12.</li>
-                        <li class="lint-entry">L12 - <span class="level-ERROR">ERROR</span> - indent - Expected indentation of 20 spaces but found 16.</li>
-                        <li class="lint-entry">L13 - <span class="level-ERROR">ERROR</span> - indent - Expected indentation of 20 spaces but found 16.</li>
-                        <li class="lint-entry">L14 - <span class="level-ERROR">ERROR</span> - indent - Expected indentation of 20 spaces but found 16.</li>
-                        <li class="lint-entry">L14 - <span class="level-ERROR">ERROR</span> - comma-dangle - Unexpected trailing comma.</li>
-                        <li class="lint-entry">L15 - <span class="level-ERROR">ERROR</span> - indent - Expected indentation of 16 spaces but found 12.</li>
-                        <li class="lint-entry">L16 - <span class="level-ERROR">ERROR</span> - indent - Expected indentation of 12 spaces but found 8.</li>
-                        <li class="lint-entry">L17 - <span class="level-ERROR">ERROR</span> - indent - Expected indentation of 8 spaces but found 4.</li>
-                        <li class="lint-entry">L18 - <span class="level-ERROR">ERROR</span> - indent - Expected indentation of 4 spaces but found 2.</li>
-                        <li class="lint-entry">L19 - <span class="level-ERROR">ERROR</span> - indent - Expected indentation of 4 spaces but found 2.</li>
-                        <li class="lint-entry">L20 - <span class="level-ERROR">ERROR</span> - indent - Expected indentation of 4 spaces but found 2.</li>
-                    </ul>
-                </div>            <div class="lint-file">
-                    <h2 id="lint-test\unit.js">test\unit.js</h2>
-                    <ul>
-                        <li class="lint-entry">L5 - <span class="level-ERROR">ERROR</span> - padding-line-between-statements - Expected blank line before this statement.</li>
-                        <li class="lint-entry">L9 - <span class="level-ERROR">ERROR</span> - indent - Expected indentation of 4 spaces but found 2.</li>
-                        <li class="lint-entry">L10 - <span class="level-ERROR">ERROR</span> - indent - Expected indentation of 4 spaces but found 2.</li>
-                        <li class="lint-entry">L12 - <span class="level-ERROR">ERROR</span> - indent - Expected indentation of 4 spaces but found 2.</li>
-                        <li class="lint-entry">L14 - <span class="level-ERROR">ERROR</span> - indent - Expected indentation of 8 spaces but found 4.</li>
-                        <li class="lint-entry">L15 - <span class="level-ERROR">ERROR</span> - indent - Expected indentation of 4 spaces but found 2.</li>
-                    </ul>
-                </div>        </div>
+            </div>
     </div>  </body>
 </html>
