@@ -24,7 +24,7 @@ const goodOptions = {
   }
 };
 
-const init = async () => {
+(async () => {
 
   await Server.register([{
     plugin: require('inert'),
@@ -47,12 +47,14 @@ const init = async () => {
   }]);
 
   await Server.start();
-};
+})();
 
 process.on('unhandledRejection', (err) => {
 
+  /* $lab:coverage:off$ */
   console.log(err);
   process.exit(1);
+  /* $lab:coverage:on$ */
 });
 
-init();
+module.exports = Server;

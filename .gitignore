@@ -1,0 +1,10 @@
+# Secret / private files
+.env
+
+# Coverage output
+/coverage/
+/coverage/*
+/coverage/testoutput.html
+
+#
+prepros-6.config
