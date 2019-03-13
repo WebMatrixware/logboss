@@ -29,6 +29,6 @@ describe('log', () => {
   it('should read the file in path and store the data in the data property', async () => {
     const l = await Log.logfile('./test.log');
 
-    expect(l.data).to.equal('test-test-test\r\n');
+    expect(l.data).to.startWith('test-test-test');
   });
 });
