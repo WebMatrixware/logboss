@@ -11,4 +11,4 @@ install:
 
 script:
   - npm test
-  - instanbul cover ./node_modules/lab/bin/lab --report lcovonly -- -l && codecov
+  - istanbul cover ./node_modules/lab/bin/lab --report lcovonly  -- -l  && codecov
