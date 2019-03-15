@@ -29,6 +29,8 @@ describe('log', () => {
   it('should read the file in path and store the data in the data property', async () => {
     const l = await Log.logfile('./test.log');
 
-    expect(l.data).to.startWith('test-test-test');
+    expect(l.data).to.satisfy(() => {
+      return (l.data === '1) test-test-test\r2) test-test-test\r3) test-test-test\r4) test-test-test\r' || l.data === '1) test-test-test\r\n2) test-test-test\r\n3) test-test-test\r\n4) test-test-test\r\n' ? true : false);
+    });
   });
 });
