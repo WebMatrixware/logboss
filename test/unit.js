@@ -33,4 +33,10 @@ describe('log', () => {
       return (l.data === '1) test-test-test\n2) test-test-test\n3) test-test-test\n4) test-test-test\n' || l.data === '1) test-test-test\r\n2) test-test-test\r\n3) test-test-test\r\n4) test-test-test\r\n' ? true : false);
     });
   });
+
+  it('should count log line length accurately', async () => {
+    const l = await Log.logfile('./test.log');
+
+    expect(l.length).to.equal(4);
+  });
 });
