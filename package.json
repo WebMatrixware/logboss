@@ -1,6 +1,6 @@
 {
   "name": "logboss",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Display and analyze large log files",
   "main": "index.js",
   "scripts": {
