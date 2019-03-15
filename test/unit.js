@@ -30,7 +30,7 @@ describe('log', () => {
     const l = await Log.logfile('./test.log');
 
     expect(l.data).to.satisfy(() => {
-      return (l.data === '1) test-test-test\r2) test-test-test\r3) test-test-test\r4) test-test-test\r' || l.data === '1) test-test-test\r\n2) test-test-test\r\n3) test-test-test\r\n4) test-test-test\r\n' ? true : false);
+      return (l.data === '1) test-test-test\n2) test-test-test\n3) test-test-test\n4) test-test-test\n' || l.data === '1) test-test-test\r\n2) test-test-test\r\n3) test-test-test\r\n4) test-test-test\r\n' ? true : false);
     });
   });
 });
