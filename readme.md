@@ -1,4 +1,5 @@
 [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
+![GitHub top language](https://img.shields.io/github/languages/top/WebMatrixware/logboss.svg?color=green&logo=javascript)
 [![Latest Build](https://img.shields.io/github/package-json/v/webmatrixware/logboss.svg?color=blue&logo=GitHub)](https://img.shields.io/github/package-json/v/webmatrixware/logboss.svg?color=blue&logo=GitHub)
 ![Travis (.org)](https://img.shields.io/travis/WebMatrixware/logboss.svg?logo=travis)
 [![codecov](https://codecov.io/gh/WebMatrixware/logboss/branch/master/graph/badge.svg)](https://codecov.io/gh/WebMatrixware/logboss)
