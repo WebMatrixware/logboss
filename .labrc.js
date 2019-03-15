@@ -3,8 +3,8 @@ module.exports = {
   threshold: 95,
   lint: true,
   colors: true,
-  reporter: ['console', 'html'],
-  output: ['stdout', './coverage/testoutput.html'],
+  reporter: ['console', 'html', 'lcov'],
+  output: ['stdout', './coverage/testoutput.html', './coverage/testoutput.lcov'],
   verbose: true,
   assert: 'code'
 };
