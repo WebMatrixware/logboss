@@ -3,6 +3,6 @@
 [![Latest Build](https://img.shields.io/github/package-json/v/webmatrixware/logboss.svg?color=blue&logo=GitHub)](https://img.shields.io/github/package-json/v/webmatrixware/logboss.svg?color=blue&logo=GitHub)
 ![Travis (.org)](https://img.shields.io/travis/WebMatrixware/logboss.svg?logo=travis)
 [![codecov](https://codecov.io/gh/WebMatrixware/logboss/branch/master/graph/badge.svg)](https://codecov.io/gh/WebMatrixware/logboss)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/ebb5bd3cc1ee44ef859baa35406b6e04)](https://www.codacy.com/app/WebMatrixware/logboss?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=WebMatrixware/logboss&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/ebb5bd3cc1ee44ef859baa35406b6e04)](https://www.codacy.com/app/WebMatrixware/logboss?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=WebMatrixware/logboss&amp;utm_campaign=Badge_Grade) [![Greenkeeper badge](https://badges.greenkeeper.io/WebMatrixware/logboss.svg)](https://greenkeeper.io/)
 
 Some content
