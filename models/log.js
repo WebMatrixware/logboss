@@ -1,17 +1,27 @@
 const fs = require('fs');
 
 module.exports = {
-  logfile: async (logPath) => {
+  logfile: async (logPath, outputPath) => {
     let log = {};
 
     log.path = logPath.toString();
-    log.data = await (() => {
-      return fs.promises.readFile(log.path, 'utf-8');
-    })();
     log.length = await countLines(log.path);
+    log.data = await readData(log.path, outputPath.toString(), log.length);
 
     return log;
   }
+};
+
+let readData = async function readData(rpath, wpath, length) {
+  return new Promise((resolve, reject) => {
+    if (length <= 3) {
+      resolve(fs.promises.readFile(rpath, 'utf-8'));
+    } else {
+      let rstream = fs.createReadStream(rpath);
+      let wstream = fs.createWriteStream(wpath);
+      resolve({ read: rstream, write: wstream });
+    }
+  });
 };
 
 let countLines = async function countLines(path) {
