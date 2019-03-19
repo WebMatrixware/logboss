@@ -19,6 +19,7 @@ let readData = async function readData(rpath, wpath, length) {
     } else {
       let rstream = fs.createReadStream(rpath);
       let wstream = fs.createWriteStream(wpath);
+      //rstream.pipe(wstream);
       resolve({ read: rstream, write: wstream });
     }
   });
@@ -40,3 +41,21 @@ let countLines = async function countLines(path) {
     });
   });
 };
+
+
+/*
+  let stream = await fs.createReadStream(filesArray[0]);
+  stream.setEncoding('utf8');
+
+  stream.on('readable', () => {
+    let d;
+
+    while(d = stream.read(1)) {
+      if (d.charCodeAt(0) === 10) {
+        console.log(' - New Ling Char\n');
+      } else {
+        console.log(d);
+      }
+    }
+  });
+*/
