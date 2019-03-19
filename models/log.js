@@ -19,7 +19,7 @@ let readData = async function readData(rpath, wpath, length) {
     } else {
       let rstream = fs.createReadStream(rpath);
       let wstream = fs.createWriteStream(wpath);
-      //rstream.pipe(wstream);
+      rstream.pipe(wstream);
       resolve({ read: rstream, write: wstream });
     }
   });
